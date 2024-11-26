@@ -50,3 +50,26 @@ Um arquivo Markdown contendo relatório dos insights.
   !pip install pandas-profiling==3.3.0
   !pip install --upgrade numba==0.58.1 visions==0.7.5
   ```
+
+# Comentários
+
+# Conclusões do Profiling
+
+- Vendas foram feitas em 81 dias diferentes.
+- Alta correlação da data com a categoria, o que pode indicar uma preferência por determinados produtos devido a época.
+- Preço é relacionado com as categorias, indicando intervalos de preços diferentes para cada categoria.
+- Qtd é relacionada com produto, o que pode indicar uma demanda de produtos específicos.
+
+# Análises dos Gráficos
+
+## Gráfico de Linha
+- É notável picos e vales entre meses alternados até julho. Pela variedade de produtos e quantidade, consideremos ser uma empresa distribuidora de mercadorias diversas. Nesse cenário, podemos considerar que a alternância das vendas pode significa um estoque alto dos clientes, suficiente para não realizarem novos pedidos no mês seguinte.
+- A partir dessa análise, podemos considerar que no mês de julho houve alguma promoção em que os clientes compraram mercadorias suficientes para estoque para os meses seguintes e os meses de maior movimento, como novembro e dezembro, reduzindo seus custos e aumentando suas margens. 
+- É provável que no mês de Janeiro de 2024 um volume de vendas maior aconteça.
+
+## Gráfico de Barras
+- Fica claro o maior faturamento por vendas de eletrônicos
+- Porém, ainda que o faturamento (ou vendas totais) dos eletrônicos seja maior que as outras três categorias somadas, não é a categoria que tem mais quantidades vendidas. Isto se deve, provavelmente, porque o ticket médio por venda de eletrônico é muito superior em relação as outras categorias.
+
+## Gráfico de Dispersão
+- Observamos uma quantidade vendida maior de produtos de ticket mais baixo. Ainda assim, considerando que o valor total de vendas da categoria de eletrônicos é maior, reforça a viabilidade de que alcançar altos faturamentos ao vender produtos de ticket mais alto. 
