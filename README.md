@@ -9,14 +9,16 @@
 │   └── DB_sql.db
 ├── notebooks/
 │   └── Limpeza_e_Análise_de_Dados_de_Vendas.ipynb
+│   └── Limpeza_e_Análise_de_Dados_de_Vendas.py
 │   └── Análise_Exploratória_de_Dados_de_Vendas.ipynb
+│   └── Análise_Exploratória_de_Dados_de_Vendas.py
 │   └── Consultas_sql.sql
 ├── output/
 │   └── relatorio_insights.md
 └── README.md
 ```
 
-- Limpeza_e_Análise_de_Dados_de_Vendas.ipynb:
+- Limpeza_e_Análise_de_Dados_de_Vendas:
 Este código contém a criação do 'dataset_simulado.csv' e a limpeza dos dados, removendo valores nulos e duplicatas. Também é uma primeira análise exploratória utilizando pandas profiling, facilitando ver informações gerais dos dados como valores nulos, duplicatas, correlações, etc.
 Ao final deste código é criado o dataset 'data_clean.csv' e seguimos para a análise exploratória.
 
@@ -26,7 +28,7 @@ Dataset criado randomicamente como base logo no início.
 - data_clean.csv:
 Dataset tratado após a limpeza dos dados.
 
-- Análise_Exploratória_de_Dados_de_Vendas.ipynb:
+- Análise_Exploratória_de_Dados_de_Vendas:
 Uma análise exploratória organizando as vendas por tempo, categorias e quantidade. Neste código são feitos plots de gráficos para realizarmos algumas análises.
 
 - Consultas_sql.sql:
